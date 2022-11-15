@@ -3,7 +3,7 @@
 <img src="https://user-images.githubusercontent.com/70070951/201959147-de2f0b35-af44-4b29-b6bc-00765c5d37e2.png" width="400" height="200">
 </p>
 <p align="center">
-📔<a href="https://github.com/Faris-abukhader/mawdoo3-scrapper/blob/master/README.md"> English </a>📔 
+📔<a href="https://github.com/Faris-abukhader/mawdoo3-scrapper/blob/main/README.md"> English </a>📔 
  </p>
 
 ## 🚩 قائمة المحتويات 
