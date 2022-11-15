@@ -108,4 +108,4 @@ pip install -r requirements.txt
 
 ## 📜 License
 
-This software is licensed under the [MIT](https://github.com/Faris-abukhader/we-work-backend/blob/master/LICENSE) © [FaRiS](https://github.com/Faris-abukhader).
+This software is licensed under the [MIT](https://github.com/Faris-abukhader/mawdoo3-scrapper/blob/main/license) © [FaRiS](https://github.com/Faris-abukhader).
