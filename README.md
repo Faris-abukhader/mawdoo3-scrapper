@@ -4,7 +4,7 @@
 
 <h1 align="center">Mawdoo3 scrapper</h1>
 <p align="center">
-📔<a href="https://github.com/Faris-abukhader/mawdoo3-scrapper/blob/master/README_ar.md">  بالعربي </a>📔 
+📔<a href="https://github.com/Faris-abukhader/mawdoo3-scrapper/blob/main/README_ar.md">  بالعربي </a>📔 
  </p>
 
 
