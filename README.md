@@ -24,11 +24,11 @@
 <p>
 <b>Warning</b>: This project is only for study purpose , please don’t re-share these articles under your name , all these articles is only belongs to Mawdoo3 . 
 </br>
-<h3>You have two approaches to get your data : </h3>
-- by calling save_all_articles_into_file functions and get all available articles into .txt file 
-</br>
-<br/>
-- by cut down the process into two stages ( recommended if you have unstable internet connection) , first you call save_all_articles_title_into_file , then after you successfully got all titles saved to .txt file , you can read the file and pass each title into get_target_article function, and save each article once you get it into .txt file .
+# how to get 144k article and more . . .  ?!
+
+- first create object from class mawdoo3
+- second call function save_all_articles_title_into_file
+- take the name of generated file from previous step and pass it to save_all_articles_into_file
 
 </p>
 
@@ -104,7 +104,6 @@ pip install -r requirements.txt
 | Name | Description |
 | --- | --- |
 | [`BeautifulSoup`](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) | Beautiful Soup is a Python library for pulling data out of HTML and XML files. |
-| [`pyarabic`](https://pypi.org/project/PyArabic/) | A specific Arabic language library for Python, provides basic functions to manipulate Arabic letters and text, like detecting Arabic letters, Arabic letters groups and characteristics, remove diacritics etc. |
 | [`selenium`](https://pypi.org/project/selenium/) |The selenium package is used to automate web browser interaction from Python. |
 
 
