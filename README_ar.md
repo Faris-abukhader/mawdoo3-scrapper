@@ -21,16 +21,14 @@
 ## <img src="https://cdn-icons-png.flaticon.com/512/1436/1436664.png" width="25" height="25" style="padding-right:15px">  المقدمة 
 
 <p>
-تنويه : تم انشاء هذا المشروع لاسباب دراسية فقط ، يمنع منعاً باتاً اعادة نشر هذه المواضيع من دون اذن موقع موضوع .
+<b>تحذير</b>: تم انشاء هذا المستودع لاسباب دراسية فقط ، يمنع منعاً باتاً اعادة نشر هذه المقالات من دون اذن موقع موضوعي  . 
 </br>
-هناك طريقتين للحصول على جميع المقالات المتوفرة : 
 </br>
-١- عن طريق وهي الطريقة المباشرة وتتم عن طريق استخدام الدالة save_all_articles_into_file 
-</br>
-٢- ينصح بهذا الطريقة اذا كان اتصالك للانترنت غير ثابت ؛ تنقسم هذه الطريقة إلى جزئين ، الأول هو حفظ عناوين المواضيع ، عن طريق استعمال الدالة save_all_articles_title_into_file ، بعد ذلك يمكنك استخدام هذه العناوين للحصول على المقالات واحده تلو الأخرى عن طريق استعمال الدالة get_target_article ولا تنسى حفظ المقالة عند الحصول عليها . 
+<h1>كيف يمكنك الحصول على 144 الف مقالة واكثر … !؟ </h1>
 
-
-
+- اول انشىء object من كلاس موضوعي mawdoo3
+- ثم قم بتشغيل الدالة save_all_articles_title_into_file
+- واخيراً خذ اسم الملف الذي تم انشاءه من الدالة السابقة ومرّره للدالة save_all_articles_into_file
 </p>
 
 
@@ -107,9 +105,8 @@ pip install -r requirements.txt
 
   | اسم المكتبة  | الوصف |
 | --- | --- |
-| [`BeautifulSoup`](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) | Beautiful Soup is a Python library for pulling data out of HTML and XML files. |
-| [`pyarabic`](https://pypi.org/project/PyArabic/) | A specific Arabic language library for Python, provides basic functions to manipulate Arabic letters and text, like detecting Arabic letters, Arabic letters groups and characteristics, remove diacritics etc. |
-| [`selenium`](https://pypi.org/project/selenium/) |The selenium package is used to automate web browser interaction from Python. |
+| [`BeautifulSoup`](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) | هي مكتبة للغة بايثون تستخدم لاستخراج المعلومات من ملفات html , xml . files. |
+| [`selenium`](https://pypi.org/project/selenium/) |هي مكتبة تستخدم لأتمتة المتصفح  |
 
 
 ## 📜 الرخصة
