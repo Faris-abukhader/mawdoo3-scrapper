@@ -25,7 +25,7 @@
 <b>Warning</b>: This project is only for study purpose , please don’t re-share these articles under your name , all these articles is only belongs to Mawdoo3 . 
 </br>
 </br>
-<h1>how to get 144k article and more . . .  ?!</h1>
+<h1>how to get 144k articles and more . . .  ?!</h1>
 
 - first create object from class mawdoo3
 - second call function save_all_articles_title_into_file
