@@ -48,26 +48,19 @@ class Mawdoo3:
             self.scrapped_categories.append(category_dic)
         print(self.scrapped_categories)
 
-    def proccess_data(self, data):
-        arabic_alpha_unicodes = ['\u0627', '\u0628', '\u0622', '\u062a', '\u062b', '\u062c', '\u062d', '\u062e',
-                                 '\u062f', '\u0630',
-                                 '\u0631', '\u0632', '\u0633', '\u0634', '\u0635', '\u0636', '\u0637', '\u0638',
-                                 '\u0639',
-                                 '\u063a', '\u0641', '\u0642', '\u0643', '\u06a9', '\u0644', '\u0645', '\u0646',
-                                 '\u0648',
-                                 '\u0629', '\u0647', '\u064a', '\u0621', '\u0649', '\u0623', '\u0624', '\u0625',
-                                 '\u0626']
-        data = re.sub(' +', ' ', data)  # to remove any multi spaces
-        data = araby.strip_tashkeel(data)  # to remove tashkeel
-        patterns_regex = '(' + '|'.join(arabic_alpha_unicodes) + ')'
-        data = re.sub(f'[^{patterns_regex}^\s]', '',
-                      data)  # to remove any character that is not in arabic alphabetic system
-        data = re.sub('(آ|إ|أ)', 'ا', data)  # normalize hamzah
-        data = re.sub('\u0629', 'ه', data)  # sub tah with hah
-        for alph in arabic_alpha_unicodes:  # remove duplicate letter more than 2
-            data = re.sub(f'({alph})' + '{3,}', alph, data)
-        data = '\n'.join([re.sub(' +', ' ', line) for line in data.split('\n') if line != ''])
-        return data.strip()
+    def procces_data(self, text):
+        for chr in text:
+            if chr in PUNCTUATION:
+                text = text.replace(chr, ' ')
+            if not u'\u0600' <= chr <= u'\u06FF' and not chr.isspace() or chr == u'\u000A':
+                text = text.replace(chr, ' ')
+            if u'\u0660' <= chr <= u'\u0669':
+                text = text.replace(chr, ' ')
+
+        text = strip_harakat(text)
+        text = normalize_hamza(text, method='tasheel')
+        text = re.sub(' +', ' ', text)
+        return text
 
     def get_category_articles(self, main_category, category):
         url = f'https://mawdoo3.com{category}'
