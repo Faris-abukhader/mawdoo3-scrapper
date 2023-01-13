@@ -106,6 +106,10 @@ pip install -r requirements.txt
 | --- | --- |
 | [`BeautifulSoup`](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) | Beautiful Soup is a Python library for pulling data out of HTML and XML files. |
 | [`selenium`](https://pypi.org/project/selenium/) |The selenium package is used to automate web browser interaction from Python. |
+| [`aiohttp`](https://docs.aiohttp.org/en/stable/) |Asynchronous HTTP Client/Server for asyncio and Python. |
+| [`asyncio`](https://docs.python.org/3/library/asyncio.html) |asyncio is a library to write concurrent code using the async/await syntax. |
+
+
 
 
 
