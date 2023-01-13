@@ -107,6 +107,8 @@ pip install -r requirements.txt
 | --- | --- |
 | [`BeautifulSoup`](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) | هي مكتبة للغة بايثون تستخدم لاستخراج المعلومات من ملفات html , xml . files. |
 | [`selenium`](https://pypi.org/project/selenium/) |هي مكتبة تستخدم لأتمتة المتصفح  |
+| [`aiohttp`](https://docs.aiohttp.org/en/stable/) |عميل / خادم HTTP غير متزامن لـ Asyncio و Python. |
+| [`asyncio`](https://docs.python.org/3/library/asyncio.html) |asyncio هي مكتبة لكتابة التعليمات البرمجية المتزامنة باستخدام الصيغة غير المتزامنة / انتظار. |
 
 
 ## 📜 الرخصة
