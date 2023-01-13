@@ -1,2 +1,4 @@
 BeautifulSoup
 selenium
+aiohttp
+asyncio
